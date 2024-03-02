@@ -1,4 +1,5 @@
-# CarPrice Pro - Modelo de Precificação de carros via bot no Telgram
+# CarPrice Pro - Modelo de Precificação de carros 
+
 ![cover](https://github.com/GabrielAlvesDS/CarPrice_Pro/blob/main/images/carprice%20pro_cut.jpg)
 
 <br>
