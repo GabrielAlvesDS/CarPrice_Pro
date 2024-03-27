@@ -51,9 +51,31 @@ A métrica principal utilizada para avaliar o desempenho do modelo foi o RMSE (R
 Foram realizadas diversas análises exploratórias, incluindo histogramas, boxplots e gráficos de correlação. Hipóteses sobre variáveis como ano do modelo, quilometragem, cor, e outros foram testadas e validadas com visualizações e análises estatísticas.
    
 ## Instruções para Execução
-Aguardando o termino da etapa de produção!
+Para acessar o modelo e solicitar o valor de um veículo, acesse o link abaixo:
+
+https://docs.google.com/spreadsheets/d/1qpC4JApSCmDyH4fDHAwcsKcGn2nrY4JOtJ10SspNqKU/edit#gid=0
+
+Para calcular o valor, basta selecionar/preencher as informações na tabela abaixo e clicar no botão 'Calcular preço do carro'.
+
+<br>
+
+![googlesheets](https://github.com/GabrielAlvesDS/CarPrice_Pro/blob/main/images/googlesheets.png)
+
+<br>
+
+Por favor, aguarde alguns instantes após inserir ou modificar os dados na planilha do Google Sheets, pois algumas listas suspensas, como 'Modelo', 'Ano Fabricação', 'Ano Modelo', 'Versão' e 'Cidade', dependem dessas informações atualizadas para serem totalmente preenchidas.
+
+**Observação:** Devido ao tamanho limitado da base de dados utilizada no treinamento do modelo, nem todos os modelos podem ser selecionados e ter seus preços calculados.
+
+Além disso, para acessar o repositório do webapp com os códigos usados para criar a API e calcular a predição com base no modelo salvo, visite o link abaixo:
+
+https://github.com/GabrielAlvesDS/carprice_pro_app
 
 ## Próximos Passos
-O próximo passo planejado inclui a implementação de um bot no Telegram para interação com usuários, coletando informações sobre carros. Uma API Flask será desenvolvida para processar esses dados e retornar previsões usando o modelo de regressão. A API será hospedada na AWS, e o sistema será lançado em produção após testes finais. Coletar mais dados para melhorar o modelo também está nos planos futuros.
+O desenvolvimento futuro do projeto CarPrice Pro inclui:
+
+**Implementação de um Bot no Telegram:** Está planejada a criação de um bot no Telegram para interagir com os usuários via celular. Esse bot utilizará a API já criada no carprice_pro_app.
+**Aumento da Base de Dados:** Pretende-se coletar mais dados da WebMotors para aumentar a quantidade de carros disponíveis para a predição do modelo. Isso contribuirá para melhorar a precisão das estimativas de preços.
+
 
 Este documento fornece uma visão geral abrangente do projeto CarPrice Pro. Recomenda-se revisar o notebook original para obter detalhes completos sobre o desenvolvimento e a execução 
